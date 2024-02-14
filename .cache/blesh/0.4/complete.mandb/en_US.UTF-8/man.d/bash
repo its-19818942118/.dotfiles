@@ -1,0 +1,62 @@
+-- A [1m-- [22msignals the end of options and disables further option processing. Any arguments after the [1m-- [22mare treated as filenames and arguments. An argument of [1m- [22mis equivalent to [1m--[22m.
+-A action The [4maction[24m may be one of the following to generate a list of possible completions:
++ - addition, subtraction
+-a file True if [4mfile[24m exists.
+-b file True if [4mfile[24m exists and is a block special file.
+-B The shell performs brace expansion (see [1mBrace Expansion [22mabove). This is on by default.
+-C command [4mcommand[24m is executed in a subshell environment, and its output is used as the possible completions. Arguments are passed as with the [1m-F [22moption.
+-c If the [1m-c [22moption is present, then commands are read from the first non-option argument [4mcommand_string[24m. If there are arguments after the [4mcommand_string[24m, the first argument is assigned to [1m$0 [22mand any remaining arguments are assigned to the positional parameters. The assignment to [1m$0 [22msets the name of the shell, which is used in warning and error messages.
+-D A list of all double-quoted strings preceded by [1m$ [22mis printed on the standard output. These are the strings that are subject to language translation when the current locale is not [1mC [22mor [1mPOSIX[22m. This implies the [1m-n [22moption.
+--debugger Arrange for the debugger profile to be executed before the shell starts. Turns on extended debugging mode (see the description of the [1mextdebug [22moption to the [1mshopt [22mbuiltin below).
+-d file True if [4mfile[24m exists and is a directory.
+--dump-po-strings Equivalent to [1m-D[22m, but the output is in the GNU [4mgettext[24m [1mpo [22m(portable object) file format.
+--dump-strings Equivalent to [1m-D[22m.
+-e file True if [4mfile[24m exists.
+-E If set, any trap on [1mERR [22mis inherited by shell functions, command substitutions, and commands executed in a subshell environment. The [1mERR [22mtrap is normally not inherited in such cases.
+-f file True if [4mfile[24m exists and is a regular file.
+-F function The shell function [4mfunction[24m is executed in the current shell environment. When the function is executed, the first argument ([1m$1[22m) is the name of the command whose arguments are being completed, the second argument ([1m$2[22m) is the word being completed, and the third argument ([1m$3[22m) is the word preceding the word being completed on the current command line. When it finishes, the possible completions are retrieved from the value of the [1mCOMPREPLY [22marray variable.
+-G file True if [4mfile[24m exists and is owned by the effective group id.
+-g file True if [4mfile[24m exists and is set-group-id.
+--help Display a usage message on standard output and exit successfully.
+-H Enable [1m! [22mstyle history substitution. This option is on by default when the shell is interactive.
+-h file True if [4mfile[24m exists and is a symbolic link.
+++id --id variable pre-increment and pre-decrement
+-i If the [1m-i [22moption is present, the shell is [4minteractive[24m.
+--init-file file Execute commands from [4mfile[24m instead of the system wide initialization file [4m/etc/bash.bashrc[24m and the standard personal initialization file [4m~/.bashrc[24m if the shell is interactive (see [1mINVOCATION [22mbelow).
+-k file True if [4mfile[24m exists and its ``sticky'' bit is set.
+-L file True if [4mfile[24m exists and is a symbolic link.
+-l Make [1mbash [22mact as if it had been invoked as a login shell (see [1mINVOCATION [22mbelow).
+--login Equivalent to [1m-l[22m.
+-m keymap Use [4mkeymap[24m as the keymap to be affected by the subsequent bindings. Acceptable [4mkeymap[24m names are [4memacs,[24m [4memacs-standard,[24m [4memacs-meta,[24m [4memacs-ctlx,[24m [4mvi,[24m [4mvi-move,[24m [4mvi-command[24m, and [4mvi-insert[24m. [4mvi[24m is equivalent to [4mvi-command[24m ([4mvi-move[24m is also a synonym).
++n Displays the [4mn[24mth entry counting from the left of the list shown by [1mdirs [22mwhen invoked without options, starting with zero.
+-N file True if [4mfile[24m exists and has been modified since it was last read.
+--noediting Do not use the GNU [1mreadline [22mlibrary to read command lines when the shell is interactive.
+--noprofile Do not read either the system-wide startup file or any of the personal initialization files [4m~/.bash_profile[24m, [4m~/.bash_login[24m, or [4m~/.profile[24m. By default, [1mbash [22mreads these files when it is invoked as a login shell (see [1mINVOCATION [22mbelow).
+--norc Do not read and execute the system wide initialization file [4m/etc/bash.bashrc[24m and the personal initialization file [4m~/.bashrc[24m if the shell is interactive. This option is on by default if the shell is invoked as [1msh[22m.
+-n string True if the length of [4mstring[24m is non-zero.
+-O file True if [4mfile[24m exists and is owned by the effective user id.
+-o optname True if the shell option [4moptname[24m is enabled. See the list of options under the description of the [1m-o [22moption to the [1mset [22mbuiltin below.
++(pattern-list) Matches one or more occurrences of the given patterns
+-p file True if [4mfile[24m exists and is a named pipe (FIFO).
+-P List current [1mreadline [22mfunction names and bindings.
+--posix Change the behavior of [1mbash [22mwhere the default operation differs from the POSIX standard to match the standard ([4mposix[24m [4mmode[24m). See [1mSEE ALSO [22mbelow for a reference to a document that details how posix mode affects bash's behavior.
+-q function Query about which keys invoke the named [4mfunction[24m.
+--rcfile file Execute commands from [4mfile[24m instead of the system wide initialization file [4m/etc/bash.bashrc[24m and the standard personal initialization file [4m~/.bashrc[24m if the shell is interactive (see [1mINVOCATION [22mbelow).
+--restricted The shell becomes restricted (see [1mRESTRICTED SHELL [22mbelow).
+-r If the [1m-r [22moption is present, the shell becomes [4mrestricted[24m (see [1mRESTRICTED SHELL [22mbelow).
+-R varname True if the shell variable [4mvarname[24m is set and is a name reference.
+-S file True if [4mfile[24m exists and is a socket.
+-s If the [1m-s [22moption is present, or if no arguments remain after option processing, then commands are read from the standard input. This option allows the positional parameters to be set when invoking an interactive shell or when reading input through a pipe.
+-t fd True if file descriptor [4mfd[24m is open and refers to a terminal.
+-T If set, any traps on [1mDEBUG [22mand [1mRETURN [22mare inherited by shell functions, command substitutions, and commands executed in a subshell environment. The [1mDEBUG [22mand [1mRETURN [22mtraps are normally not inherited in such cases.
+-u file True if [4mfile[24m exists and its set-user-id bit is set.
+- + unary minus and plus
+--verbose Equivalent to [1m-v[22m.
+--version Show version information for this instance of [1mbash [22mon the standard output and exit successfully.
+-V List current [1mreadline [22mvariable names and values.
+-v Print shell input lines as they are read.
+-w file True if [4mfile[24m exists and is writable.
+-W wordlist The [4mwordlist[24m is split using the characters in the [1mIFS [22mspecial variable as delimiters, and each resultant word is expanded. Shell quoting is honored within [4mwordlist[24m, in order to provide a mechanism for the words to contain shell metacharacters or characters in the value of [1mIFS[22m. The possible completions are the members of the resultant list which match the word being completed.
+-X List all key sequences bound to shell commands and the associated commands in a format that can be reused as input.
+-x Print commands and their arguments as they are executed.
+-z string True if the length of [4mstring[24m is zero.

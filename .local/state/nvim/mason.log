@@ -1,0 +1,42 @@
+[INFO  Tue 07 Nov 2023 08:14:21 PM +06] ...e/nvim/lazy/mason.nvim/lua/mason-core/installer/init.lua:184: Executing installer for Package(name=lua-language-server) {}
+[INFO  Tue 07 Nov 2023 08:14:28 PM +06] ...e/nvim/lazy/mason.nvim/lua/mason-core/installer/init.lua:245: Installation succeeded for Package(name=lua-language-server)
+[INFO  Wed 08 Nov 2023 05:04:23 PM +06] ...e/nvim/lazy/mason.nvim/lua/mason-core/installer/init.lua:184: Executing installer for Package(name=typescript-language-server) {}
+[INFO  Wed 08 Nov 2023 05:04:29 PM +06] ...e/nvim/lazy/mason.nvim/lua/mason-core/installer/init.lua:184: Executing installer for Package(name=html-lsp) {}
+[INFO  Wed 08 Nov 2023 05:04:30 PM +06] ...e/nvim/lazy/mason.nvim/lua/mason-core/installer/init.lua:184: Executing installer for Package(name=css-lsp) {}
+[INFO  Wed 08 Nov 2023 05:04:31 PM +06] ...e/nvim/lazy/mason.nvim/lua/mason-core/installer/init.lua:184: Executing installer for Package(name=tailwindcss-language-server) {}
+[ERROR Wed 08 Nov 2023 05:04:54 PM +06] ...e/nvim/lazy/mason.nvim/lua/mason-core/installer/init.lua:249: Installation failed for Package(name=html-lsp) error="Installation was aborted."
+[ERROR Wed 08 Nov 2023 05:04:54 PM +06] ...e/nvim/lazy/mason.nvim/lua/mason-core/installer/init.lua:249: Installation failed for Package(name=typescript-language-server) error="Installation was aborted."
+[ERROR Wed 08 Nov 2023 05:04:54 PM +06] ...e/nvim/lazy/mason.nvim/lua/mason-core/installer/init.lua:249: Installation failed for Package(name=tailwindcss-language-server) error="Installation was aborted."
+[ERROR Wed 08 Nov 2023 05:04:54 PM +06] ...e/nvim/lazy/mason.nvim/lua/mason-core/installer/init.lua:249: Installation failed for Package(name=css-lsp) error="Installation was aborted."
+[INFO  Wed 08 Nov 2023 05:06:54 PM +06] ...e/nvim/lazy/mason.nvim/lua/mason-core/installer/init.lua:184: Executing installer for Package(name=typescript-language-server) {}
+[INFO  Wed 08 Nov 2023 05:06:54 PM +06] ...e/nvim/lazy/mason.nvim/lua/mason-core/installer/init.lua:184: Executing installer for Package(name=html-lsp) {}
+[INFO  Wed 08 Nov 2023 05:06:54 PM +06] ...e/nvim/lazy/mason.nvim/lua/mason-core/installer/init.lua:184: Executing installer for Package(name=css-lsp) {}
+[INFO  Wed 08 Nov 2023 05:06:54 PM +06] ...e/nvim/lazy/mason.nvim/lua/mason-core/installer/init.lua:184: Executing installer for Package(name=tailwindcss-language-server) {}
+[ERROR Wed 08 Nov 2023 05:07:31 PM +06] ...e/nvim/lazy/mason.nvim/lua/mason-core/installer/init.lua:249: Installation failed for Package(name=tailwindcss-language-server) error="Installation was aborted."
+[ERROR Wed 08 Nov 2023 05:07:31 PM +06] ...e/nvim/lazy/mason.nvim/lua/mason-core/installer/init.lua:249: Installation failed for Package(name=typescript-language-server) error="Installation was aborted."
+[ERROR Wed 08 Nov 2023 05:07:31 PM +06] ...e/nvim/lazy/mason.nvim/lua/mason-core/installer/init.lua:249: Installation failed for Package(name=html-lsp) error="Installation was aborted."
+[ERROR Wed 08 Nov 2023 05:07:31 PM +06] ...e/nvim/lazy/mason.nvim/lua/mason-core/installer/init.lua:249: Installation failed for Package(name=css-lsp) error="Installation was aborted."
+[INFO  Wed 08 Nov 2023 05:07:53 PM +06] ...e/nvim/lazy/mason.nvim/lua/mason-core/installer/init.lua:184: Executing installer for Package(name=typescript-language-server) {}
+[INFO  Wed 08 Nov 2023 05:07:53 PM +06] ...e/nvim/lazy/mason.nvim/lua/mason-core/installer/init.lua:184: Executing installer for Package(name=html-lsp) {}
+[INFO  Wed 08 Nov 2023 05:07:53 PM +06] ...e/nvim/lazy/mason.nvim/lua/mason-core/installer/init.lua:184: Executing installer for Package(name=css-lsp) {}
+[INFO  Wed 08 Nov 2023 05:07:53 PM +06] ...e/nvim/lazy/mason.nvim/lua/mason-core/installer/init.lua:184: Executing installer for Package(name=tailwindcss-language-server) {}
+[ERROR Wed 08 Nov 2023 05:08:20 PM +06] ...e/nvim/lazy/mason.nvim/lua/mason-core/installer/init.lua:249: Installation failed for Package(name=css-lsp) error="Installation was aborted."
+[ERROR Wed 08 Nov 2023 05:08:20 PM +06] ...e/nvim/lazy/mason.nvim/lua/mason-core/installer/init.lua:249: Installation failed for Package(name=typescript-language-server) error="Installation was aborted."
+[ERROR Wed 08 Nov 2023 05:08:20 PM +06] ...e/nvim/lazy/mason.nvim/lua/mason-core/installer/init.lua:249: Installation failed for Package(name=tailwindcss-language-server) error="Installation was aborted."
+[INFO  Wed 08 Nov 2023 05:08:30 PM +06] ...e/nvim/lazy/mason.nvim/lua/mason-core/installer/init.lua:184: Executing installer for Package(name=typescript-language-server) {}
+[INFO  Wed 08 Nov 2023 05:08:30 PM +06] ...e/nvim/lazy/mason.nvim/lua/mason-core/installer/init.lua:184: Executing installer for Package(name=html-lsp) {}
+[INFO  Wed 08 Nov 2023 05:08:30 PM +06] ...e/nvim/lazy/mason.nvim/lua/mason-core/installer/init.lua:184: Executing installer for Package(name=css-lsp) {}
+[INFO  Wed 08 Nov 2023 05:08:30 PM +06] ...e/nvim/lazy/mason.nvim/lua/mason-core/installer/init.lua:184: Executing installer for Package(name=tailwindcss-language-server) {}
+[ERROR Wed 08 Nov 2023 05:08:40 PM +06] ...e/nvim/lazy/mason.nvim/lua/mason-core/installer/init.lua:249: Installation failed for Package(name=tailwindcss-language-server) error="Installation was aborted."
+[ERROR Wed 08 Nov 2023 05:08:40 PM +06] ...e/nvim/lazy/mason.nvim/lua/mason-core/installer/init.lua:249: Installation failed for Package(name=typescript-language-server) error="Installation was aborted."
+[ERROR Wed 08 Nov 2023 05:08:40 PM +06] ...e/nvim/lazy/mason.nvim/lua/mason-core/installer/init.lua:249: Installation failed for Package(name=css-lsp) error="Installation was aborted."
+[INFO  Sat 11 Nov 2023 07:12:05 PM +06] ...e/nvim/lazy/mason.nvim/lua/mason-core/installer/init.lua:184: Executing installer for Package(name=stylua) {}
+[INFO  Sat 11 Nov 2023 07:12:05 PM +06] ...e/nvim/lazy/mason.nvim/lua/mason-core/installer/init.lua:184: Executing installer for Package(name=shfmt) {}
+[INFO  Sat 11 Nov 2023 07:12:12 PM +06] ...e/nvim/lazy/mason.nvim/lua/mason-core/installer/init.lua:245: Installation succeeded for Package(name=stylua)
+[INFO  Sat 11 Nov 2023 07:12:18 PM +06] ...e/nvim/lazy/mason.nvim/lua/mason-core/installer/init.lua:245: Installation succeeded for Package(name=shfmt)
+[INFO  Sat 11 Nov 2023 07:54:23 PM +06] ...e/nvim/lazy/mason.nvim/lua/mason-core/installer/init.lua:184: Executing installer for Package(name=json-lsp) {}
+[INFO  Sat 11 Nov 2023 07:54:23 PM +06] ...e/nvim/lazy/mason.nvim/lua/mason-core/installer/init.lua:184: Executing installer for Package(name=typescript-language-server) {}
+[INFO  Sat 11 Nov 2023 07:55:10 PM +06] ...e/nvim/lazy/mason.nvim/lua/mason-core/installer/init.lua:245: Installation succeeded for Package(name=typescript-language-server)
+[INFO  Sat 11 Nov 2023 07:56:23 PM +06] ...e/nvim/lazy/mason.nvim/lua/mason-core/installer/init.lua:245: Installation succeeded for Package(name=json-lsp)
+[ERROR Tue 14 Nov 2023 07:43:31 PM +06] ...e/nvim/lazy/mason.nvim/lua/mason-core/providers/init.lua:75: Provider "github" "get_latest_release" failed: spawn: wget failed with exit code 4 and signal 0. 
+[ERROR Sat 25 Nov 2023 05:10:07 PM +06] ...im/lazy/mason.nvim/lua/mason-registry/sources/github.lua:146: Failed to install registry GitHubRegistrySource(repo=mason-org/mason-registry). "Failed to download checksums.txt."

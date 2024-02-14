@@ -1,0 +1,21 @@
+
+
+Sat 02 Dec 2023 09:11:13 PM +06
+....local/share/nvim/lazy/nui.nvim/lua/nui/popup/border.lua:507: attempt to call field 'set_win_option' (a nil value)
+
+stack traceback:
+	[C]: in function 'pcall'
+	...local/share/nvim/lazy/noice.nvim/lua/noice/util/call.lua:144: in function 'set_win_option'
+	....local/share/nvim/lazy/nui.nvim/lua/nui/popup/border.lua:507: in function '_open_window'
+	....local/share/nvim/lazy/nui.nvim/lua/nui/popup/border.lua:558: in function 'mount'
+	...8/.local/share/nvim/lazy/nui.nvim/lua/nui/popup/init.lua:243: in function 'mount'
+	....local/share/nvim/lazy/noice.nvim/lua/noice/view/nui.lua:143: in function 'mount'
+	....local/share/nvim/lazy/noice.nvim/lua/noice/view/nui.lua:130: in function 'create'
+	....local/share/nvim/lazy/noice.nvim/lua/noice/view/nui.lua:287: in function <....local/share/nvim/lazy/noice.nvim/lua/noice/view/nui.lua:281>
+	[C]: in function 'xpcall'
+	...local/share/nvim/lazy/noice.nvim/lua/noice/util/call.lua:149: in function 'try'
+	...local/share/nvim/lazy/noice.nvim/lua/noice/view/init.lua:140: in function 'display'
+	.../share/nvim/lazy/noice.nvim/lua/noice/message/router.lua:215: in function <.../share/nvim/lazy/noice.nvim/lua/noice/message/router.lua:155>
+	[C]: in function 'xpcall'
+	...local/share/nvim/lazy/noice.nvim/lua/noice/util/call.lua:149: in function 'try'
+	.../.local/share/nvim/lazy/noice.nvim/lua/noice/ui/init.lua:98: in function <.../.local/share/nvim/lazy/noice.nvim/lua/noice/ui/init.lua:74>

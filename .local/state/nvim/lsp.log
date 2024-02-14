@@ -1,0 +1,6 @@
+[START][2023-12-01 15:38:46] LSP logging initiated
+[ERROR][2023-12-01 15:38:46] .../vim/lsp/rpc.lua:734	"rpc"	"/home/its_19818942118/.local/share/nvim/mason/bin/vscode-json-language-server"	"stderr"	"/home/its_19818942118/.local/share/nvim/mason/bin/vscode-json-language-server: 11: exec: node: not found\n"
+[START][2023-12-01 17:15:24] LSP logging initiated
+[ERROR][2023-12-01 17:15:24] .../vim/lsp/rpc.lua:734	"rpc"	"/home/its_19818942118/.local/share/nvim/mason/bin/vscode-json-language-server"	"stderr"	"/home/its_19818942118/.local/share/nvim/mason/bin/vscode-json-language-server: 11: exec: node: not found\n"
+[START][2023-12-01 17:21:07] LSP logging initiated
+[ERROR][2023-12-01 17:21:07] .../vim/lsp/rpc.lua:734	"rpc"	"/home/its_19818942118/.local/share/nvim/mason/bin/vscode-json-language-server"	"stderr"	"/home/its_19818942118/.local/share/nvim/mason/bin/vscode-json-language-server: 11: exec: node: not found\n"

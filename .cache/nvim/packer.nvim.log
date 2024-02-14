@@ -1,0 +1,2 @@
+[WARN  Sat 04 Nov 2023 01:15:04 PM +06 319663046257] ...m/site/pack/packer/start/packer.nvim/lua/packer/jobs.lua:94: Killing git due to timeout!
+[ERROR Sat 04 Nov 2023 01:15:20 PM +06 335997452577] .../site/pack/packer/start/packer.nvim/lua/packer/async.lua:20: Error in coroutine: Vim:E739: Cannot create directory /home/its_19818942118/.config/nvim/plugin: permission denied
